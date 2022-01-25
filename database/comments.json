@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "61f0096dc81fea276cd7f198"
+  },
+  "id_blog": [
+    {
+      "$oid": "61ef6e4eb6df5a63821dde94"
+    }
+  ],
+  "name_cmt": "String",
+  "content_cmt": "String",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61f009acc81fea276cd7f19a"
+  },
+  "id_blog": [
+    {
+      "$oid": "61ef6e4eb6df5a63821dde94"
+    }
+  ],
+  "name_cmt": "thanhtung",
+  "content_cmt": "123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61f009b3c81fea276cd7f19c"
+  },
+  "id_blog": [
+    {
+      "$oid": "61ef6e4eb6df5a63821dde94"
+    }
+  ],
+  "name_cmt": "ttt",
+  "content_cmt": "3123123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61f015b9a2792b9952a45750"
+  },
+  "id_blog": [
+    {
+      "$oid": "61ef6df4b6df5a63821dde91"
+    }
+  ],
+  "name_cmt": "ttt",
+  "content_cmt": "3123123",
+  "__v": 0
+}]
