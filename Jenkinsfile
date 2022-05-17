@@ -1,6 +1,6 @@
 node {
     def app 
-    env.NODEJS_HOME = "${tool 'Node 6.x'}"
+    env.NODEJS_HOME = "${tool 'Node 16.x'}"
     env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
      stage('clone repository') {
       checkout scm  
