@@ -1,5 +1,6 @@
 node {
      def app 
+     tools {nodejs "NODEJS"}
      stage('clone repository') {
       checkout scm  
     }
