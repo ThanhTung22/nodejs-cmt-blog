@@ -3,9 +3,6 @@ node {
      stage('clone repository') {
       checkout scm  
     }
-    stage('Install nodemon') {
-        sh 'npm i nodemon'
-    }
     stage('Build') {
         echo 'Building dependencies...'
         sh 'npm i'
@@ -13,7 +10,7 @@ node {
      
     stage('Run Application') {
        echo 'Run Application'
-       sh 'npm start'
+       sh 'node index.jx'
     }
     // stage('Build docker Image'){
     //   app = docker.build("lttung11/nodejs-cmt-blog")
