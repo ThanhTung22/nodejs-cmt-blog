@@ -10,7 +10,7 @@ const cmtRouter = require('./routes/Comment');
 app.use(cors());
 app.use(bodyParser.json());
 
-db.connectDB();
+// db.connectDB();
 
 app.use('/api',
     [blogRouter, cmtRouter]);
