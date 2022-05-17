@@ -3,6 +3,10 @@ node {
      stage('clone repository') {
       checkout scm  
     }
+    stage('Install nodemon') {
+        echo 'Building dependencies...'
+        sh 'npm i nodemon'
+    }
     stage('Build') {
         echo 'Building dependencies...'
         sh 'npm i nodemon'
