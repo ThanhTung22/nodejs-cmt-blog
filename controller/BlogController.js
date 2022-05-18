@@ -25,8 +25,10 @@ const getBlogs = async (req, res, next) => {
 
 const getBlogs2 = async (req, res, next) => { //Fake test jenkins
   try {
-    const data = await getAll();
-    res.status(data.status).json(data);
+    const data = {
+      "devops" : "Thanh Tung"
+    }
+    res.status(200).json(data);
   } catch (error) {
     return next(error);
   }
