@@ -5,9 +5,8 @@ node {
     }
     stage('Build') {
         echo 'Building dependencies...'
-        sh 'npm i'
+        sh 'npm install'
     }
-
     stage('Run Application') {
         echo 'Run Application'
         sh 'node index.jx'
