@@ -5,11 +5,12 @@ node {
     }
     stage('Build') {
         echo 'Building dependencies...'
+        sh 'npm install nodemon'
         sh 'npm install'
     }
     stage('Run Application') {
-        echo 'Run Application'
-        sh 'node index.jx'
+        echo 'Run Application...'
+        sh 'node index.js'
     }
 // stage('Build docker Image'){
 //   app = docker.build("lttung11/nodejs-cmt-blog")
