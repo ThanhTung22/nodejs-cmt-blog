@@ -23,7 +23,17 @@ const getBlogs = async (req, res, next) => {
   }
 };
 
+const getBlogs2 = async (req, res, next) => { //Fake test jenkins
+  try {
+    const data = await getAll();
+    res.status(data.status).json(data);
+  } catch (error) {
+    return next(error);
+  }
+};
+
 module.exports = {
   createBlog,
   getBlogs,
+  getBlogs2
 };

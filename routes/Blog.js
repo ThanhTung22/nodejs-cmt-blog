@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const { createBlog,
-  getBlogs } = require('../controller/BlogController');
+  getBlogs, getBlogs2 } = require('../controller/BlogController');
 
 router.route('/blog')
   .post(createBlog)
-  .get(getBlogs);
+  .get(getBlogs2);
 
 module.exports = router;
