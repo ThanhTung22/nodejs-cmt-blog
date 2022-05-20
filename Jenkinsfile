@@ -13,7 +13,7 @@ node {
         sh 'node index.js'
     }
 // stage('Build docker Image'){
-//   app = docker.build("lttung11/nodejs-cmt-blog")
+//   app = docker.build("nodejs-cmt-blog")
 // }
 //  stage('Test Image'){
 //    app.inside {
